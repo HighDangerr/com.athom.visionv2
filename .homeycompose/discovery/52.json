@@ -1,0 +1,8 @@
+{
+  "type": "mdns-sd",
+  "mdns-sd": {
+    "name": "5523",
+    "protocol": "tcp"
+  },
+  "id": "{{55}}"
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "1",
+    "value": "0",
+    "label": {
+      "en": "Siren/Strobe mode"
+    },
+    "hint": {
+      "en": "User can change value from 0 to 2 to turn either Siren sound, Strobe light, or both when triggered."
+    },
+    "zwave": {
+      "index": 1,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": {
+          "en": "All Enable - Default "
+        }
+      },
+      {
+        "id": "2",
+        "label": {
+          "en": "Strobe Only"
+        }
+      },
+      {
+        "id": "1",
+        "label": {
+          "en": "Siren Only"
+        }
+      }
+    ],
+    "type": "dropdown"
+  },
+  {
+    "id": "2",
+    "value": "0",
+    "label": {
+      "en": "Alarm Auto Stop Time"
+    },
+    "hint": {
+      "en": "User can change the duration of siren time when triggered."
+    },
+    "zwave": {
+      "index": 2,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": {
+          "en": "30 seconds - Default"
+        }
+      },
+      {
+        "id": "3",
+        "label": {
+          "en": "Will Not Automatically Stop"
+        }
+      },
+      {
+        "id": "1",
+        "label": {
+          "en": "60 seconds"
+        }
+      },
+      {
+        "id": "2",
+        "label": {
+          "en": "120 seconds"
+        }
+      }
+    ],
+    "type": "dropdown"
+  }
+]

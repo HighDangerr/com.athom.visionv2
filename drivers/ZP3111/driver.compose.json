@@ -1,0 +1,39 @@
+{
+  "id": "ZP3111",
+  "name": {
+    "en": "4in1 multisensor"
+  },
+  "class": "sensor",
+  "capabilities": [
+    "measure_battery",
+    "measure_humidity",
+    "measure_luminance",
+    "alarm_motion",
+    "alarm_tamper",
+    "measure_temperature"
+  ],
+  "images": {
+    "large": "/drivers/ZP3111/assets/images/large.png",
+    "small": "/drivers/ZP3111/assets/images/small.png"
+  },
+  "zwave": {
+    "manufacturerId": 265,
+    "productTypeId": [
+      8225
+    ],
+    "productId": [
+      8449
+    ],
+    "zwaveAllianceProductId": 1572,
+    "associationGroups": [
+      1
+    ],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "Lifeline\r\nCOMMAND_CLASS_BASIC_SET\r\nCOMMAND_CLASS_BATTERY_REPORT\r\nCOMMAND_CLASS_DEVICE_RESET_LOCALLY_NOTIFICATION\r\nCOMMAND_CLASS_NOTIFICATION_REPORT\r\nCOMMAND_CLASS_SENSOR_MULTILEVEL_V7\r\n"
+        }
+      }
+    }
+  }
+}

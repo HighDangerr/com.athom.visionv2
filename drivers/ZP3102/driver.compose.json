@@ -1,0 +1,34 @@
+{
+  "id": "ZP3102",
+  "name": {
+    "en": "Motion Sensor",
+    "nl": "Bewegingssensor"
+  },
+  "class": "sensor",
+  "capabilities": [
+    "measure_battery",
+    "alarm_generic",
+    "alarm_motion",
+    "alarm_tamper",
+    "measure_temperature"
+  ],
+  "images": {
+    "large": "/drivers/ZP3102/assets/images/large.png",
+    "small": "/drivers/ZP3102/assets/images/small.png"
+  },
+  "energy": {
+    "batteries": [
+      "CR123A"
+    ]
+  },
+  "zwave": {
+    "manufacturerId": 128,
+    "productTypeId": [
+      1
+    ],
+    "productId": [
+      3
+    ],
+    "zwaveAllianceProductId": 205
+  }
+}

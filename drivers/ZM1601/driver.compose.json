@@ -1,0 +1,35 @@
+{
+  "id": "ZM1601",
+  "name": {
+    "en": "Siren with LED",
+    "nl": "Sirene met Led"
+  },
+  "class": "other",
+  "capabilities": [
+    "measure_battery"
+  ],
+  "images": {
+    "large": "/drivers/ZM1601/assets/images/large.png",
+    "small": "/drivers/ZM1601/assets/images/small.png"
+  },
+  "zwave": {
+    "manufacturerId": 265,
+    "productTypeId": [
+      8197
+    ],
+    "productId": [
+      1285
+    ],
+    "zwaveAllianceProductId": 1009,
+    "associationGroups": [
+      1
+    ],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "LifeLine association for central static controller\nCOMMAND_CLASS_DEVICE_RESET_LOCALLY,\n  DEVICE_RESET_LOCALLY_NOTIFICATION,\n  COMMAND_CLASS_BATTERY,\n  BATTERY_REPORT,\n  COMMAND_CLASS_NOTIFICATION_V4,\n  NOTIFICATION_REPORT_V4"
+        }
+      }
+    }
+  }
+}

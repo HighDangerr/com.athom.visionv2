@@ -1,0 +1,33 @@
+{
+  "id": "ZM1602",
+  "name": {
+    "en": "Siren with DC adapter",
+    "nl": "Sirene met DC adapter"
+  },
+  "class": "other",
+  "capabilities": [],
+  "images": {
+    "large": "/drivers/ZM1602/assets/images/large.png",
+    "small": "/drivers/ZM1602/assets/images/small.png"
+  },
+  "zwave": {
+    "manufacturerId": 265,
+    "productTypeId": [
+      8201
+    ],
+    "productId": [
+      2311
+    ],
+    "zwaveAllianceProductId": 1276,
+    "associationGroups": [
+      1
+    ],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "Lifeline"
+        }
+      }
+    }
+  }
+}

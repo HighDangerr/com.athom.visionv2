@@ -1,0 +1,59 @@
+[
+  {
+    "id": "1",
+    "value": 3,
+    "label": {
+      "en": "Retriggering Time"
+    },
+    "hint": {
+      "en": "User could set up the retriggering time from 1 ~ 255 minutes using values 0x00 to 0xFF (-128 to 127)."
+    },
+    "zwave": {
+      "index": 1,
+      "size": 1
+    },
+    "attr": {
+      "min": 1,
+      "max": 127
+    },
+    "type": "number"
+  },
+  {
+    "id": "2",
+    "value": 0,
+    "label": {
+      "en": "Temperature Scale"
+    },
+    "hint": {
+      "en": "User could choose the temperature reported scale by following:\n0x00 - Celsius\n0x01 - Fahrenheit\n"
+    },
+    "zwave": {
+      "index": 2,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 1
+    },
+    "type": "number"
+  },
+  {
+    "id": "3",
+    "value": 4,
+    "label": {
+      "en": "Infrared sensor sensitivity"
+    },
+    "hint": {
+      "en": "Infrared sensor sensitivity adjustment:\n\n1 = most sensitive \n7 = most insensitive"
+    },
+    "zwave": {
+      "index": 3,
+      "size": 1
+    },
+    "attr": {
+      "min": 1,
+      "max": 7
+    },
+    "type": "number"
+  }
+]
