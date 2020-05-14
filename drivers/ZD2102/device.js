@@ -1,6 +1,6 @@
 'use strict';
 
-const ZwaveDevice = require('homey-meshdriver').ZwaveDevice;
+const { ZwaveDevice } = require('homey-meshdriver');
 
 class VisionDoorSensor extends ZwaveDevice {
 
